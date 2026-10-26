@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_wd"]
+
+[resource]
+script = ExtResource("1_wd")
+id = "kite"
+display_name = "Kite"
+category = "Sidearm"
+slot = 3
+damage = 33.0
+head_mult = 3.5
+leg_mult = 0.85
+falloff_start = 22.0
+falloff_min = 0.75
+max_range = 120.0
+fire_rate = 6.5
+automatic = false
+mag_size = 12
+reserve = 48
+reload_time = 1.5
+reload_empty_time = 1.8
+equip_time = 0.45
+move_speed_mult = 1.04
+spread_base = 0.004
+spread_move = 0.035
+spread_air = 0.12
+spread_per_shot = 0.009
+spread_max = 0.05
+spread_recovery = 0.55
+ads_fov_mult = 0.86
+ads_spread_mult = 0.6
+recoil_pitch = 0.018
+recoil_yaw = 0.004
+recoil_pattern = PackedVector2Array()
+recoil_recovery = 9.0
+view_kick = 0.8
+sound = "pistol_shot"
+tracer_every = 2
+bot_accuracy = 0.85
+bot_burst = Vector2i(1, 2)

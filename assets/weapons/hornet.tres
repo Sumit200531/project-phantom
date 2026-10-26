@@ -1,0 +1,41 @@
+[gd_resource type="Resource" script_class="WeaponData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/weapons/weapon_data.gd" id="1_wd"]
+
+[resource]
+script = ExtResource("1_wd")
+id = "hornet"
+display_name = "Hornet"
+category = "Submachine Gun"
+slot = 2
+damage = 27.0
+head_mult = 2.8
+leg_mult = 0.85
+falloff_start = 18.0
+falloff_min = 0.72
+max_range = 120.0
+fire_rate = 13.5
+automatic = true
+mag_size = 32
+reserve = 96
+reload_time = 1.9
+reload_empty_time = 2.3
+equip_time = 0.55
+move_speed_mult = 1.0
+spread_base = 0.006
+spread_move = 0.022
+spread_air = 0.12
+spread_per_shot = 0.0038
+spread_max = 0.06
+spread_recovery = 0.5
+ads_fov_mult = 0.88
+ads_spread_mult = 0.65
+recoil_pitch = 0.0065
+recoil_yaw = 0.0045
+recoil_pattern = PackedVector2Array(0.3, 0, 0.8, 0.2, 1, 0.5, 1, -0.3, 0.9, -0.8, 0.8, 0.4, 0.7, 1, 0.6, 0.6, 0.6, -0.6, 0.5, -1.1, 0.5, 0.3)
+recoil_recovery = 8.5
+view_kick = 0.7
+sound = "smg_shot"
+tracer_every = 3
+bot_accuracy = 0.9
+bot_burst = Vector2i(5, 10)
