@@ -1,0 +1,4 @@
+# Godot 4 import cache and editor data (regenerated on first open)
+.godot/
+*.translation
+__pycache__/
